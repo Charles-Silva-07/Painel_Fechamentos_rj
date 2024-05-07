@@ -5,11 +5,7 @@ import pyodbc
 
 @st.cache_data
 def load_data(ano=2024, semana=18):
-    # Substitua com os detalhes da sua conexão com o SQL Server
-    server = '192.168.10.10'
-    database = 'BI'
-    username = 'web_solutions'
-    password = '32s48#41dF24ss87'
+    # Substitua com os detalhes da sua conexão com o SQL Server  
 
     # String de conexão
     conn_str = f'DRIVER={{SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password}'
